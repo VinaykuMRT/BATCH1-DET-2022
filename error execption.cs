@@ -25,14 +25,14 @@ namespace ConsoleAppDemo
 
                 Console.WriteLine(Sum(1, 2, 3, x));
             }
-            catch (OverflowException ex)
-            {
-               Console.WriteLine("please enter a number <=10000");//user friendly messages
-            }
-            //catch (FormatException ex)
+            //catch (OverflowException ex)
             //{
-            //    Console.WriteLine("please enter a valid number");//user friendly messages
+            //   Console.WriteLine("please enter a number <=10000");//user friendly messages
             //}
+            catch (FormatException ex)
+            {
+                Console.WriteLine("please enter a valid number");//user friendly messages
+            }
             catch (Exception ex)
             {
                 //Console.WriteLine("Sorry, error occured...contact admin");

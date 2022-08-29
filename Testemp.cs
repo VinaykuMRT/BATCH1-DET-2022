@@ -10,8 +10,8 @@ namespace BATCH1_DET_2022
     {
         public static void Main()
         {
-            emp e = new emp(5050, "vinay", new DateOnly(2020, 8, 1));
-            Console.WriteLine($"years of experiences{e.GetYearsofExp()}");
+           // emp e = new emp(5050, "vinay", new DateOnly(2020, 8, 1));
+           // Console.WriteLine($"years of experiences{e.GetYearsofExp()}");
 
         }
 
