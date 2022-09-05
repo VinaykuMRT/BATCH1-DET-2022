@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BATCH1_DET_2022
 {
-    public class Emp
+    public class Empl
     {
 
         //data declared inside class are known as "fields"
@@ -16,12 +16,22 @@ namespace BATCH1_DET_2022
         double sal;
         DateOnly doj;
 
+        public Empl()
+        {
+        }
+
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public Emp(int eid, string ename, DateOnly doj)
+        public Empl(int eid, string ename, DateOnly doj)
         {
             id = eid; name = ename; this.doj = doj;
         }
+
+        public int Empno { get; internal set; }
+        public string Ename { get; internal set; }
+        public int Sal { get; internal set; }
+        public int Deptno { get; internal set; }
+        public string Job { get; internal set; }
 
         //function written inside a class is known as method
         public int GetYearsofExp()

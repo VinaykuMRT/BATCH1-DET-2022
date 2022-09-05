@@ -28,7 +28,7 @@ class MyClass
         Manager m1 = new Manager(2345, "Jeeva", new DateOnly(2010, 1, 14), "PEMS", 450);
         Console.WriteLine(m1.Print());
 
-        Emp e1 = new Emp(1, "Jiyana", new DateOnly(2020, 1, 5));
+        Empl e1 = new Empl(1, "Jiyana", new DateOnly(2020, 1, 5));
         Console.WriteLine(e1.Print());
 
     }

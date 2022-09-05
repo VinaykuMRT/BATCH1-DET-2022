@@ -80,24 +80,24 @@ namespace BATCH1_DET_2022
             //Console.ReadLine();
 
 
-            List<string> names = new List<string>();
-            names.Add("jhon");
-            names.Add("peter");
-            names.Add("jacob");
-            names.Add("harry");
-            names.Add("jackson");
+            //List<string> names = new List<string>();
+            //names.Add("jhon");
+            //names.Add("peter");
+            //names.Add("jacob");
+            //names.Add("harry");
+            //names.Add("jackson");
 
 
-            // var numQuery = from o in names //select num from numbers
-            //              where names = o
-            //         select names;
+            //// var numQuery = from o in names //select num from numbers
+            ////              where names = o
+            ////         select names;
 
-            var result = names.Where(word => word.Contains('o'));
+            //var result = names.Where(word => word.Contains('o'));
 
-            foreach (var word in result)
-            {
-                Console.WriteLine(word);
-            }
+            //foreach (var word in result)
+            //{
+            //    Console.WriteLine(word);
+            //}
 
             //max
             List<string> names = new List<string>();
@@ -122,6 +122,6 @@ namespace BATCH1_DET_2022
         }
     }
     }
-}
+
 
 

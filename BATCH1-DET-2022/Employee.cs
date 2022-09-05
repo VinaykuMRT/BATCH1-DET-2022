@@ -31,12 +31,12 @@ namespace BATCH1_DET_2022
         public string GetGrade()
         {
             double net = GetNetsalary();
-            if(net>10000)
+            if (net > 10000)
             {
                 return "A";
 
             }
-            else if (net >5000 && net <10000)
+            else if (net > 5000 && net < 10000)
             {
                 return "b";
             }
